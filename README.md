@@ -1,3 +1,3 @@
-# CPSC452FINAL
+# T2D GENETIC RISK USING DNABERT
 
 To run the code in final.py, the only external file needed is t2d_snp.txt. However, that file is too large to be uploaded to this repo, so t2d_snp_top100k.txt has been provided instead. To use this txt file, just do not run the the first processing cell with t2d_snp.txt. The remainder of the code should run normally cell by cell. All dependencies are downloaded in the code itself. Genomic data of T2D-related SNPs was extracted from the DIAGRAMv3 Consortium GWAS meta-analysis. The meta-analysis consists of 12,171 T2D cases across 12 GWAS from populations of European descent. This project uses DNABERT-2, a pretrained transformer model trained on genomic data. The version of DNABERT-2 used here is a slightly modified one that allows for attention outputs. This version of the model was cloned and downloaded from jaandoui/DNABERT2-AttentionExtracted on Hugging Face.
